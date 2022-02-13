@@ -1,20 +1,13 @@
 # PUBG-Final-Placement-Prediction
-### Project for Distributed Data Analysis & Mining course @ Univeristy of Pisa
+### Project for Distributed Data Analysis & Mining course @ University of Pisa
 
 <img width=300px src="https://cdn.images.express.co.uk/img/dynamic/143/590x/PUBG-Battlegrounds-update-PC-Xbox-One-909316.jpg"> <img width=200px src="https://www.plan4res.eu/wp-content/uploads/2018/02/University-of-Pisa-Italy.png"><img width = 300px src="https://databricks.com/wp-content/uploads/2019/02/spark-white.png" />  
 
 ### Description
-The team at PUBG has made official game data available for the public to explore and scavenge outside of "The Blue Circle." 
-You are given over 65,000 games' worth of anonymized player data, split into training and testing sets, and asked to predict final placement from final in-game stats and initial player ratings.
-What's the best strategy to win in PUBG? Should you sit in one spot and hide your way into victory, or do you need to be the top shot? Let's let the data do the talking!
-
-This analysis is focused on:
-
-1. Imbalanced learning: Random Undersampling, CNN, Tomek's Link, Random Oversampling, SMOTE, K-Means SMOTE, ADASYN
-2. Anomaly detection: DBSCAN, KNN, LOF, ABOD, Isolation Forest, Extended Isolation Forest, Autoencoders;
-3. Advanced classification methods: Naive Bayes, Rule-based classifiers, Logistic Regression, SVM, Ensembles (Random-Forest, Bagging, Adaboost) and Neural 4. Netoworks (MLP);
-5. Time series analysis: Motifs & Anomaly detection, Clustering, Shaplet-based classifiers;
-
+PUBG dataset is composed of over 4,500,000 official game data. This project consists in analyzing players' game statistics, employing different unsupervised and supervised data mining/machine learning algorithms across the PUBG dataset. Spark engine was used to develop the whole project. The main task consists to identify the final placement based on different gaming approaches. The analysis contains:
+1. Clustering to identify different playing styles
+2. Different basic/advanced classification models such as NN with personalized early stopping, SVM, Logistic Regression, ensemble models,...
+3. Explainability module to identify the attributes that most lead to victory
 
 ### Course Objectives
 Mining with big data or big data mining has become an active research area. Running
