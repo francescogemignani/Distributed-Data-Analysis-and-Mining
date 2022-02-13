@@ -9,6 +9,8 @@ PUBG dataset is composed of over 4,500,000 official game data. This project cons
 2. Different basic/advanced classification models such as NN with personalized early stopping, SVM, Logistic Regression, ensemble models,...
 3. Explainability module to identify the attributes that most lead to victory
 
+For more detailed information check the official [Kaggle page](https://www.kaggle.com/simarjeetsingh19/pubg-winner-prediction) and read the [report](https://github.com/francescogemignani/PUBG-Final-Placement-Prediction/blob/main/Report.pdf)
+
 ### Course Objectives
 Mining with big data or big data mining has become an active research area. Running
 current analytical methodologies and software tools on a single personal computer
